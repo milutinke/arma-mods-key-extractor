@@ -1,6 +1,6 @@
 {
   "name": "arma-mods-key-extractor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An utility tool that extracts keys from Arma III mods and puts them into keys folder in your server",
   "main": "./lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Milutinke",
   "license": "GPL-2.0-only",
   "dependencies": {
-    "color-terminal": "0.0.3-4",
+    "color-terminal-fixed": "^0.0.5",
     "md5-file": "^5.0.0",
     "prompt-sync": "^4.2.0",
     "terminal-table": "0.0.12",
@@ -22,5 +22,19 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/milutinke/arma-mods-key-extractor.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/milutinke/arma-mods-key-extractor"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/milutinke/arma-mods-key-extractor",
+  "keywords": [
+    "arma",
+    "arma3",
+    "utility",
+    "util",
+    "keys"
+  ]
 }
